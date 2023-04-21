@@ -13,6 +13,7 @@
 		D6DD38D729F282530077C898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DD38D529F282530077C898 /* Main.storyboard */; };
 		D6DD38D929F282550077C898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DD38D829F282550077C898 /* Assets.xcassets */; };
 		D6DD38DC29F282550077C898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DD38DA29F282550077C898 /* LaunchScreen.storyboard */; };
+		D6DD38E429F287ED0077C898 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DD38E329F287ED0077C898 /* MainScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D6DD38D829F282550077C898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6DD38DB29F282550077C898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6DD38DD29F282550077C898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DD38E329F287ED0077C898 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				D6DD38CF29F282530077C898 /* AppDelegate.swift */,
+				D6DD38E329F287ED0077C898 /* MainScreenViewController.swift */,
 				D6DD38D129F282530077C898 /* SceneDelegate.swift */,
 				D6DD38D329F282530077C898 /* ViewController.swift */,
 				D6DD38D529F282530077C898 /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6DD38D429F282530077C898 /* ViewController.swift in Sources */,
+				D6DD38E429F287ED0077C898 /* MainScreenViewController.swift in Sources */,
 				D6DD38D029F282530077C898 /* AppDelegate.swift in Sources */,
 				D6DD38D229F282530077C898 /* SceneDelegate.swift in Sources */,
 			);
